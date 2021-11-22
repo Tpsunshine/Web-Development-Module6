@@ -1,0 +1,141 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Thabo Pitso -Assignment 6 -Bootstrap </title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="https://use.fontawesome.com/releases/v5.14.0/js/all.js" data-auto-replace-svg="nest"></script>
+    <style>
+        .footer {
+            font-size: 50px;
+            padding-left: 50px;
+            padding-right: 50px;
+
+
+        }
+    </style>
+</head>
+
+<body>
+    <!-- BootStrap3 Top Fixed Dropdown Navigation Bar –Create a Bootstrap3 top fixed dropdown navigation bar havingProducts, Blog, About, Contact Us menu. With Products menu having Middleware,  Database,  Application,  Servers  as  submenu  also  provide  the  brand  icon  on navigation -->
+    <nav class="navbar navbar-inverse">
+        <div class="conainer-fluid">
+            <div class="navbar-hearder">
+                <a class="navbar-brand" href="#"> <img src="./image/Edureka_icon.png" alt="brand_name" height="30px"
+                        width="40px"></a>
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#"> Products
+                            <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Middleware</a></li>
+                            <li><a href="#">Database</a></li>
+                            <li><a href="#">Application</a></li>
+                            <li><a href="#">Servers</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#"> Blog</a></li>
+                    <li><a href="#"> About </a></li>
+                    <li><a href="#"> Contact Us </a></li>
+                </ul>
+            </div>
+
+        </div>
+    </nav>
+
+    <div class="container">
+        <!--Accordion –Create a Bootstrap3 accordion with different panel -->
+        <div class="panel-group" id="accordion">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h4 class="panel-title">
+                        <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">What is your goal?</a>
+                    </h4>
+                </div>
+                <div id="collapse1" class="panel-collapse collapse ">
+                    <div class="panel-body">Beacome a good Software Developer</div>
+                </div>
+            </div>
+            </br>
+            <div class="panel panel-danger">
+                <div class="panel-heading">
+                    <h4 class="panel-title">
+                        <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">What is Bootstrap3?</a>
+                    </h4>
+                </div>
+            
+
+            <div id="collapse2" class="panel-collapse collapse">
+                <div class="panel-body ">
+                    Bootstrap is the most popular HTML, CSS, and JavaScript framework for developing responsive,
+                    mobile-first websites..
+                    </br>
+                    <ul>
+                        <li> Bootstrap is a free front-end framework for faster and easier web development</li>
+                        <li>Bootstrap includes HTML and CSS based design templates for typography, forms, buttons,
+                            tables, navigation, modals, image carousels and many other, as well as optional
+                            JavaScript plugins</li>
+                        <li> also gives you the ability to easily create responsive designs</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+            </br>
+            <div class="panel panel-success">
+                <div class="panel-heading">
+                    <h4 class="panel-title">
+                        <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">What is Responsive Web
+                            Design?</a>
+                    </h4>
+                </div>
+                <div id="collapse3" class="panel-collapse collapse">
+                    <div class="panel-body">
+
+                        Responsive web design is about creating web sites which automatically adjust themselves to
+                        look good on all devices, from small phones to large desktops.
+                    </div>
+                </div>
+            </div>
+                </br>
+                <div class="panel panel-primary">
+                    <div class="panel-heading">
+                        <h4 class="panel-title">
+                            <a data-toggle="collapse" data-parent="#accordion" href="#collapse4">Who is the developer of
+                                Bootstrap3?</a>
+                        </h4>
+                    </div>
+               
+                <div id="collapse4" class="panel-collapse collapse">
+                    <div class="panel-body">
+                        Bootstrap was developed by Mark Otto and Jacob Thornton at Twitter, and released as an open
+                        source product in August 2011 on GitHub.</br>
+
+                        <b> In June 2014 Bootstrap was the No.1 project on GitHub!</b>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+
+
+
+        <!--Font  Awesome  Icons –Use  font-awesome  to  display  google+, Facebook, LinkedIn social icons-->
+        <div style="text-align: center; padding-top: 160px; ">
+            <i class="footer fab fa-linkedin-in"></i>
+            <i class=" footer fab fa-facebook-f"></i>
+            <i class="footer fab fa-google-plus-g"></i>
+            <i class="footer fab fa-twitter"></i>
+            <i class=" footer fab fa-youtube"></i>
+
+
+        </div>
+</body>
+
+</html>
